@@ -1,9 +1,11 @@
 function changeNoun() {
     const wordArray = ["a leader", "an artist", "a wordsmith", 
                         "a mentor", "a learner", "a linguist", 
-                        "a programmer", "a trailblazer", "a friend",
-                        "an empath", "a Libra", "a poet", "a builder",
-                        "a DIY-er", "a creative", "an editor", "a doer"];
+                        "a programmer", "a trailblazer", "a writer",
+                        "an empath", "a poet", "a builder", 
+                        "a DIY-er", "a creator", "an editor", "a doer", 
+                        "an advocate", "a strategist", "an engineer", 
+                        "a developer", "a producer", "a maker", "a teacher"];
     const colorArray = [];
     let randomIndex = Math.floor(Math.random() * wordArray.length);
     document.getElementById("button-text").innerHTML = wordArray[randomIndex];
