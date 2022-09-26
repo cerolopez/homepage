@@ -1,0 +1,134 @@
+.container-fluid {
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #fff;
+}
+
+footer {
+  height: 100px;
+}
+
+.my-row {
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.main-row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.navbar-custom {
+  background-color: #e6e9f0; 
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #000;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-text:hover {
+  color: #431c5d;
+}
+
+.nav-link {
+  color: #000;
+}
+
+.nav-link:hover {
+  color: #431c5d;
+}
+
+footer ul li {
+  font-size: 15px;
+}
+
+.header-row {
+  padding-top: 25px;
+}
+
+header {
+  background-color: transparent;
+}
+
+body {
+  background-image: url("../images/homepage-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main-content {
+  padding-bottom: 15px;
+}
+
+.trans-container {
+  background-color: transparent;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.col-card {
+  padding-right: 50px;
+}
+
+#hero-image {
+  border-radius: 50%;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(74,7,96, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(74,7,96);
+} 
+
+#nav-work, #nav-ed, #nav-hob {
+  font-style: underline;
+}
+
+h7 {
+  font-size: 16px;
+  color: #bccbde;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 22px;
+  color: #431c5d;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+#card-button {
+  background-color: #e05915;
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#dark-button-link {
+  color: white;
+}
+
+a {
+  color: #431c5d;
+}
+
+a:hover {
+  color: #e05915;
+}
+
+table {
+  table-layout: fixed;
+  word-wrap: break-word;
+}
