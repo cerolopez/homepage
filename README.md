@@ -1,6 +1,6 @@
 # Cecilia's Homepage
 
-This is a standard personal website with a sticky nav and consistent hero banner throughout the site. The main home page features an interactive button that cycles through descriptors of the author.
+This is a standard personal website with a sticky nav and consistent hero banner throughout the site. The main home page features an interactive button that cycles through descriptors of the author. View here: https://cerolopez.github.io/
 
 ## Author
 This webpage was designed and built from scratch by Cecilia Lopez, except for some Instagram embed code. I also created the website background image in Photoshop.
