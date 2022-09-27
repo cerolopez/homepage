@@ -2,9 +2,10 @@
 
 This is a standard personal website with a sticky nav and consistent hero banner throughout the site. The main home page features an interactive button that cycles through descriptors of the author. 
 
-View site here: https://cerolopez.github.io/
-Figma: https://www.figma.com/file/O8vmZrPY6Z8x3r2qTTMlhK/CS5610-Project-1?node-id=0%3A1
-Demo: https://www.youtube.com/watch?v=zL3jEt6tbrs
+View site here: https://cerolopez.github.io/  
+Figma: https://www.figma.com/file/O8vmZrPY6Z8x3r2qTTMlhK/CS5610-Project-1?node-id=0%3A1  
+Design doc: https://docs.google.com/document/d/1fjSzNEJdk-mr90bubz0rTR3AqL1aqzys0jjClko9rbg/edit?usp=sharing  
+Demo: https://www.youtube.com/watch?v=zL3jEt6tbrs  
 
 ## Author
 This webpage was designed and built from scratch by Cecilia Lopez, except for some Instagram embed code. I also created the website background image in Photoshop.
