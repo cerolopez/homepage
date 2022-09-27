@@ -1,12 +1,16 @@
 # Cecilia's Homepage
 
-This is a standard personal website with a sticky nav and consistent hero banner throughout the site. The main home page features an interactive button that cycles through descriptors of the author. View here: https://cerolopez.github.io/
+This is a standard personal website with a sticky nav and consistent hero banner throughout the site. The main home page features an interactive button that cycles through descriptors of the author. 
+
+View site here: https://cerolopez.github.io/
+Figma: https://www.figma.com/file/O8vmZrPY6Z8x3r2qTTMlhK/CS5610-Project-1?node-id=0%3A1
+Demo: https://www.youtube.com/watch?v=zL3jEt6tbrs
 
 ## Author
 This webpage was designed and built from scratch by Cecilia Lopez, except for some Instagram embed code. I also created the website background image in Photoshop.
 
 ## Class Link
-This is a first project for a web development class taught by John Guerra Gomez at Northeastern University.
+This is a first project for a web development class taught by John Guerra Gomez at Northeastern University. URL here: https://johnguerra.co/classes/webDevelopment_fall_2022/
 
 ## Project Objective
 The purpose of this project was to familiarize ourselves with CSS, HTML, Bootstrap, and JavaScript by building a personal webpage with information about ourselves.
