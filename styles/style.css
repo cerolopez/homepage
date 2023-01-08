@@ -6,14 +6,15 @@ footer {
   height: 100px;
 }
 
-.my-row {
-  padding-top: 25px;
-  padding-bottom: 20px;
-}
-
-.main-row {
+.main-content {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.row {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 25px;
 }
 
 .navbar-custom {
@@ -55,10 +56,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-}
-
-.main-content {
-  padding-bottom: 15px;
 }
 
 .trans-container {
