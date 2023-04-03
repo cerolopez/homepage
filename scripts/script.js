@@ -1,8 +1,8 @@
 function changeNoun() {
-    const wordArray = ["a leader", "an artist", "a wordsmith", 
-                        "a mentor", "a learner", "a linguist", 
+    const wordArray = ["a leader", "an artist", "a designer", 
+                        "a mentor", "a coder", "a linguist", "an innovator", 
                         "a programmer", "a trailblazer", "a writer",
-                        "an empath", "a poet", "a builder", 
+                        "a poet", "a builder", "a researcher", 
                         "a DIY-er", "a creator", "an editor", "a doer", 
                         "an advocate", "a strategist", "an engineer", 
                         "a developer", "a producer", "a maker", "a teacher"];
