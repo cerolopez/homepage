@@ -1,0 +1,233 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+main {
+    padding-top: 25px;
+    background-color: white;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #D7E1ED;
+    justify-content: center;
+    padding-right: 200px;
+    padding-left: 200px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.header-item-left {
+    flex: 25%;
+}
+
+.header-item-right {
+    flex: 50%;
+    align-content: center;
+}
+
+@media (max-width: 800px) {
+    .header-item-right, .header-item-left {
+        flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    header, main {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+#headshot-img {
+    border-radius: 50%;
+}
+
+.blurb {
+    width: 50%;
+}
+
+@media (max-width: 800px) {
+    .blurb {
+        width: 100%;
+    }
+}
+
+/* cards */
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.card {
+    background-color: white;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px rgba(204,204,204,1);
+}
+
+@media (max-width: 800px) {
+    .card {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+/* column cards */
+
+.card-content-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cell {
+    width: 45%;
+}
+
+@media (max-width: 800px) {
+    .card-content-columns {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .cell {
+        padding-right: 0px;
+    }
+}
+
+.spacer {
+    height: 25px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+/* Navbar links */
+.navbar ul {
+    list-style-type: none;
+    margin-right: 190px;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+@media (max-width: 800px) {
+    .navbar ul {
+        margin-right: 5px;
+    }
+}
+
+.navbar ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.navbar .brand {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Courier Prime", sans-serif;
+    text-decoration: none;
+    margin-left: 200px;
+}
+
+@media (max-width: 800px) {
+    .navbar .brand {
+        margin-left: 5px;
+    }
+}
+
+/* TEXT STUFFFFF */
+
+p.subtitle-1 {
+    font-size: 18px;
+}
+
+p.subtitle-2 {
+    font-size: 14px;
+    color: gray;
+}
+
+h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#tagline {
+    font-size: 40px;
+}
+
+/* footer stuff */
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.footer-blurb {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+.footer-icons {
+    display: flex;
+    background-color: white;
+}
+
+.footer-icons ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    width: 100%;
+}
+
+.footer-icons ul li {
+    margin: 10px;
+}

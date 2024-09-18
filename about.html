@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style-2.css">
+  </head>
+
+<!-- Page content -->
+
+<body>
+  <!-- Begin nav bar -->
+  <div id="navbar"></div>
+
+  <script>
+    fetch('/components/navbar.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar').innerHTML = data;
+      });
+  </script>
+  
+
+  <!-- Begin header -->
+  <header>
+    <div class="header-container">
+      <div class="header-item-left">
+        <div class="headshot">
+          <img src="/images/headshot.jpeg" id="headshot-img" alt="Headshot of Cecilia">
+        </div>
+      </div>
+      <div class="header-item-right">
+        <div class="about-blurb">
+          <h2>About</h2>
+          <h3 id="tagline">Hi, I'm Cecilia</h3>
+          <p>I'm a professional with 10+ years of experience in editorial and website management, 
+            currently in the process of transitioning to a career in CS after earning a Master's degree 
+            in Computer Science from Northeastern University, Silicon Valley.</p>
+            <p>My primary areas of interest include HCI, web dev and design, and UX/UI. I'm secondarily 
+              interested in AI, NLP, and large language models.
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+    <!-- Begin main content-->
+  <main>
+
+    <div class="card-title"><h3>My Journey to CS</h3></div>
+    <div class="card-container">
+      <div class="card">
+        <div class="card-content">
+            <p>During my undergrad, I remember being drawn to computer science, but being intimidated by the math. 
+              It didn't come naturally to me and I didn't have the confidence to keep at it. I decided instead to pursue a Bachelor's in 
+              Linguistics, another passion of mine. After graduating in 2014, I found a job as a Content Editor and since then have been working in 
+              similar roles.
+            </p>
+            <p>In 2019, I was excited to learn that you could earn a Master's in Computer Science without a background 
+              in CS through the Northeastern Align Program. Being surrounded by such brilliant research scientists and 
+              engineers at Meta (where I worked back then), I was inspired to go for it. In August 2021, I decided to apply 
+              at the last minute, got accepted about a week later, and enrolled the next month.
+            </p>
+            <p>For about a year, I continued to work full-time at Meta while in grad school 
+              full-time. However, my time at Meta came to an unexpected end when I was let go in the first round of 
+              layoffs at the end of 2021. Although I was devastated, I took this opportunity to focus my full attention on finishing school. I 
+              graduated in May 2024 and since then have been working part-time so I can focus on shifting careers.
+            </p>
+            <p>I am looking forward to inspiring the next generation of engineers the same way that my colleagues 
+              at Meta inspired me. In particular, I'm passionate about showing other folks underrepresented in tech that 
+              if I can do it, they can do it, too.
+            </p>
+        </div>
+      </div>
+    </div> 
+
+    <div class="card-title"><h3>Contact</h3></div>
+    <div class="card-container">
+      <div class="card">
+        <div class="card-content">
+            <p>If you'd like to get in touch for whatever reason, you can send me a message 
+              on <a href="https://www.linkedin.com/in/cecilia-r-lopez/">LinkedIn</a> 
+              or you can shoot me an email at lopezceciliarose at gmail dot com</p>
+        </div>
+      </div>
+    </div> 
+
+  </main>
+
+  <!-- Begin nav bar -->
+  <div id="footer"></div>
+
+  <script>
+    fetch('/components/footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer').innerHTML = data;
+      });
+  </script>
+
+  <script src="scripts/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  crossorigin="anonymous"></script> -->
+  <!-- <script src="//www.instagram.com/embed.js"></script> -->
+</body>
+
+</html>
